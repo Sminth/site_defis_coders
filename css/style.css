@@ -1113,7 +1113,7 @@ Artest Page
 }
 
 .wave-player-warp {
-	padding-top: 40px;
+	padding-top: 10px;
 	position: relative;
 	width: calc(100% - 382px);
 }
