@@ -64,7 +64,7 @@
 							<p>by sminth</p>
 							<p>Votre mission si toutefois vous l'accepter... <br>Est de realiser une page d'affiche presentant de maniere <strong>bref</strong> et <strong>elegant</strong> la futur ps5 .</p>
 						</div>
-						<p>recompense : <strong>Tranfert d'unité 1000 fr </strong> </p>
+						<p>recompense : <strong>Transfert d'unité 1000 fr </strong> </p>
 					<p> <strong>Google </strong><br>mots clés : div, heigth, width, padding, margin, font css, effet hover</p>
 
 					<!-- Player Controls -->
@@ -99,7 +99,7 @@
 						<h3>descriptif</h3>
 						<p>Bonjour chère developpeur, <br> Je suis koffi bryan fils du plus grand homme d'affaire d'afrique <br>
 						Dans le but de pousser mon pere a acheter la futur ps5 des sa sortir j'ai decidé de creer un site qui la presnte de maniere simple et concis sans trop entrez dans les details <br>
-						Concevez donc un site qui affiche une image de la ps5 a gauche et met un texte descriptif a droite puis un bouton juste en dessous du texte qui une fois cliqué redirige vers le site officiel de sonic <br>
+						Concevez donc un site qui affiche une image de la ps5 à gauche et met un texte descriptif a droite puis un bouton juste en dessous du texte qui une fois cliqué redirige vers le site officiel de playstation <br>
 						Vous trouver le texte et l'image dans les ressources a telecharger
 						</p>
 
@@ -119,13 +119,13 @@
 										<li><strong>Taille du texte : </strong><span> 20 pixel</span></li>
 										<li><strong>Images : </strong><span>forme ronde ; hight : 200 px; whidth : 300px</span></li>
 										<li><strong>bouton : </strong><span>bordure bleu;effet hover</span></li>
-										<li><strong>font-family de la page  : </strong><span>Arial</span></li>
-										<li><strong>pourcentage de ressemblance : </strong><span>80%</span></li>
+										<li><strong>font-family de la page  : </strong><span>Arial ou sans-serif</span></li>
 										<li><strong>code html doit etre dans un fichier index.html</strong></li>
 										<li><strong>code css doit etre dans un fichier style.css</strong></li>
 										<li><strong>ligne de code max dans index.html</strong><span> 40 </span></li>
 										<li><strong>ligne de code max dans style.css</strong><span> 60</span></li>
 										<li><strong>les mots : </strong><span>PS5, fin 2020, lecteur Blu-Ray 4K, 449 €, s'il te plais papa</span><strong>.  doivent être en gras </strong></li>
+										<li>la ressemblance avec le rendu final doit etre de <strong>80%</strong></li>
 									</ul>
 									<br>
 									<p><strong>Pas Forcer...</strong></p>
@@ -161,13 +161,26 @@
 			</div>
 		</div>
 	</section>
-	
+	<script>
+	function nom() {
+		var person = prompt("entre ton nom au complet", "Harry Potter");
+
+if (person == null || person == "") {
+  txt = "il a annuler.";
+} else {
+  txt = "thanks " + person + "!";
+}
+alert(txt);
+	}
+		
+	</script>
 	<!-- Similar Songs section -->
 	<section class="similar-songs-section">
 		<div class="container-fluid">
 			<h3>Ressources</h3>
 			<div class="col-lg-9">
-				<button style="background-color: #FC0254;padding: 8px;border: 1px solid white;color: white;">Telecharger les ressources</button>
+				<button onclick="nom();"
+				id="btn"style="background-color: #FC0254;padding: 8px;border: 1px solid white;color: white;">Telecharger les ressources</button>
 			</div>
 		</div>
 	</section>
